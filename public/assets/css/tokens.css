@@ -1,0 +1,56 @@
+/* DESIGN TOKENS - EbonyCraft Palu (DESIGN.md) */
+:root {
+  /* Brand & Palette */
+  --ebony-900: #1C1410;
+  --ebony-700: #3B2A20;
+  --mahogany:  #7A4B2A;
+  --amber:     #C8892B;
+  --sand:      #E8D8BD;
+  --cream:     #FAF6EE;
+  --surface:   #FFFFFF;
+  --text:      #2A211B;
+  --muted:     #7C6F64;
+  
+  /* Status Colors */
+  --success:   #3F6B4F;
+  --danger:    #B3402E;
+  --info:      #2F6F8F;
+  
+  /* Palet Chart (Kategorikal 8 Warna) */
+  --chart-c1: #C8892B;
+  --chart-c2: #7A4B2A;
+  --chart-c3: #2F6F8F;
+  --chart-c4: #3F6B4F;
+  --chart-c5: #B3402E;
+  --chart-c6: #8C6BB1;
+  --chart-c7: #D9B26F;
+  --chart-c8: #5B5B5B;
+
+  /* Typography */
+  --font-brand: 'Playfair Display', Georgia, serif;
+  --font-body:  'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Radius & Shadows */
+  --radius-card: 14px;
+  --radius-btn:  10px;
+  --radius-pill: 9999px;
+  --shadow-sm:   0 1px 2px rgba(28, 20, 16, 0.06);
+  --shadow-card: 0 1px 2px rgba(28, 20, 16, 0.06), 0 4px 16px rgba(28, 20, 16, 0.05);
+  --shadow-hover: 0 4px 20px rgba(28, 20, 16, 0.12);
+  --border-light: 1px solid var(--sand);
+}
+
+/* Base Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--cream);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
